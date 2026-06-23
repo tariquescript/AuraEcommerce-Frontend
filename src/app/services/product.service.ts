@@ -9,7 +9,7 @@ import { Product } from '../models/product.model';
 })
 export class ProductService {
 
-  private apiUrl = 'http://localhost:5000/api/products';
+  private apiUrl = 'https://auraecommerce-backend-0h9t.onrender.com/api/products';
 
   constructor(private http: HttpClient) {}
 

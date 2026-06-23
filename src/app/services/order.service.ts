@@ -6,7 +6,7 @@ import { HttpClient } from '@angular/common/http';
 })
 export class OrderService {
 
-  private apiUrl = 'http://localhost:5000/api/orders';
+  private apiUrl = 'https://auraecommerce-backend-0h9t.onrender.com/api/orders';
 
   constructor(private http: HttpClient) {}
 
